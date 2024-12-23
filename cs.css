@@ -1,0 +1,50 @@
+<style>{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;}
+    
+    body{
+        height: 100%;
+        width:  100%;}
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem;
+        background-color: rgb(234, 30, 23);
+        gap: 1rem;}
+
+    .item{
+        padding: 2rem;
+        height: 50px;
+        width: 50px;
+        background-color: rgb(9, 233, 43);
+        border:2px solid black; }
+    #rotatex:hover{
+        transform: rotateX(45deg);}
+    #rotatey:hover{
+        transform: rotateY(70deg);}
+    #rotatez:hover{
+        transform: rotateZ(-45deg);}
+
+    #scalex:hover{
+        transform: scaleX(2);}    
+    #scaley:hover{
+        transform: scaleY(0.5);}
+    #scalez:hover{   
+        transform:perspective(100px) scaleZ(2);}
+    #translatex:hover{
+        transform: translateX(50px);}
+    #translatey:hover{
+        transform: translateY(100px);}
+    #translatez:hover{
+        transform:perspective(100px) translateZ(-50px);}
+    #skewx:hover{
+        transform: skewX(45deg);}
+    #skewy:hover{
+        transform: skewY(-50deg);}
+    #skewz:hover{
+        transform:perspective(-200px) skewZ(-50deg);}
+</style>  
